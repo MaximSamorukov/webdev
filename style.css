@@ -18,8 +18,8 @@ header {
     width: 1600px;
     min-width: 1600px;
     max-width: 1600px;
-    margin-left: auto;
-    margin-right: auto;
+    /* margin-left: auto;
+    margin-right: auto; */
     padding: 0;
 
 }
@@ -233,7 +233,107 @@ nav .item a {
     background-color: #F5F6F7;
 
 }
+.third-zone-wrapper {
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+}
 
+.third-zone-community {
+
+    margin-left: 271px;
+    margin-top: 155px;
+
+
+}
+
+.third-zone-icon {
+    background-image: url(/assets/icon.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-left: 125px;
+    width: 45px;
+    height: 45px;
+
+}
+.third-zone-text {
+    width: 296px;
+    text-align: center;
+
+}
+
+.third-zone-text h2 {
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2.4px;
+    line-height: 16px;
+    margin-top: 23px;
+    margin-bottom: -1px;
+    
+}
+
+.third-zone-text p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 145%;
+    letter-spacing: 0;
+
+    
+}
+
+.slider {
+    height: 300px;
+    width: 900px;
+    margin-top: 75px;
+    margin-left: 139px;
+
+}
+.slider-index {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 30px;
+}
+.slider-index div:nth-child(2) {
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 10px;
+    letter-spacing: 5px;
+}
+.slider-index div:nth-child(1) {
+    background-image: url(/assets/Rectangle5.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 12px;
+    height: 12px;
+    margin-left: 544px;
+
+
+}
+
+.slider-index div:nth-child(3) {
+    background-image: url(/assets/Rectangle6.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 12px;
+    height: 12px;
+    margin-left: 6px;
+}
+
+.slider-photos {
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    margin-top: 15px;
+}
+.first-image {
+    margin-right: 30px;
+}
+
+.second-image {
+    margin-right: 30px;
+}
 .forth-zone {
     height: 842px;
     width: 1600px;
@@ -241,4 +341,278 @@ nav .item a {
     max-width: 1600px;
     background-color: #ffffff;
 
+}
+
+.forth-zone-wrapper {
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    
+}
+.forth-zone-text {
+    width: 407px;
+    margin-top: 303px;
+    margin-left: 139px;
+    margin-right: 248px;
+}
+
+.forth-zone-text h1 {
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 28px;
+}
+
+.forth-zone-text p {
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    line-height: 143%;
+    margin-top: 21px;
+}
+
+.forth-zone-text p span {
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0px;
+    line-height: 145%;
+}
+
+.forth-zone-text .button {
+  width: 180px;
+  height: 46px;
+  background-color: #00AFDB;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  vertical-align: center;
+  line-height: 45px;
+  margin-top: 29px;
+}
+
+.forth-zone-photo {
+    width: 407px;
+    height: 582px;
+    background-image: url(/assets/content-image-2.png);
+    margin-top: 120px;
+    margin-left: 269px;
+
+}
+
+.fifth-zone {
+    height: 598px;
+    width: 1600px;
+    min-width: 1600px;
+    max-width: 1600px;
+    background-image: url(/assets/pexels-christina-morillo-1181675\ 1.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.fifth-zone-h1 {
+    font-size: 24px;
+    font-weight: 700;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 610px;
+    margin-top: 217px;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+.fifth-zone-email {
+    margin-left: 597px;
+    margin-top: 31px;
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+}
+
+.fifth-zone-email input:first-child {
+    width: 314px;
+    height: 42px;
+    padding-left: 24px;
+    padding-top: 3px;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0;
+    border: 0;
+    
+}
+
+.fifth-zone-email > button {
+    width: 66px;
+    height: 46px;
+    border: 0;
+    background-color: #00AFDB;
+    background-image: url(/assets/fa-check.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    
+}
+.sixth-zone {
+    height: 468px;
+    width: 1600px;
+    min-width: 1600px;
+    max-width: 1600px;
+    background-color: #F5F6F7;
+}
+
+.sixth-zone-text {
+    width: 550px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 120px;
+    
+}
+
+.sixth-zone-text > h1 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.sixth-zone-text > p {
+    margin-top: 22px;
+    width: 480px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 144%;
+    letter-spacing: 0px;
+    text-align: center;
+    margin-left: 35px;
+
+}
+
+.sixth-zone-text > .button {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 29px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 406px;
+}
+
+.item-button {
+    display: flex;
+    justify-content: space-between;
+}
+
+.item-button div:first-child {
+    width: 128px;
+    height: 50px;
+    background-color: #00AFDB;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    line-height: 55px;
+    color: #ffffff;
+    
+}
+
+.item-button div:last-child {
+    width: 60px;
+    height: 50px;
+    background-color: #009CC2;
+}
+
+.apple-store div:last-child {
+    background-image: url(/assets/icon-apple.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.play-market div:last-child {
+    background-image: url(/assets/icon-android.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.seventh-zone {
+    height: 184px;
+    width: 1600px;
+    min-width: 1600px;
+    max-width: 1600px;
+    background-color: #000;
+}
+
+.seventh-zone-items {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 60px;
+    margin-left: 160px;
+}
+
+.seventh-zone-nav {
+    width: 236px;
+    height: 20px;
+    margin-top: 6px;
+}
+
+.seventh-zone-logo {
+    width: 44px;
+    height: 44px;
+    /* margin-right: 102px; */
+    background-image: url(/assets/logo.svg);
+    background-repeat: no-repeat;
+    background-position: center, center;
+    margin-left: 382px;
+}
+
+.seventh-zone-copyright {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 142%;
+    letter-spacing: 0px;
+    color: #818181;
+    margin-left: 448px;
+}
+
+.seventh-zone-nav span {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 0px;
+    color: #fff;
+}
+
+.seventh-zone-nav span:nth-child(2) {
+    margin-left: 36px;
+}
+
+.seventh-zone-nav span:nth-child(3) {
+    margin-left: 37px;
+}
+
+.seventh-zone-nav span:nth-child(1)::after {
+    content: " ";
+    background-image: url(/assets/mnu-items-divider.svg);
+    background-repeat: no-repeat;
+    background-position: center, center;
+    position: relative;
+    right: -18px;
+    width: 0px;
+    height: 10px;
+    background-color: #000;
+
+}
+
+.seventh-zone-nav span:nth-child(2)::after {
+    content: " ";
+    background-image: url(/assets/mnu-items-divider.svg);
+    background-repeat: no-repeat;
+    background-position: center, center;
+    position: relative;
+    right: -18px;
+    width: 0px;
+    height: 10px;
+    background-color: #000;
 }
