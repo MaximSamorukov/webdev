@@ -1,0 +1,244 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+
+/* border: 1px solid red; */
+display: flex;
+justify-content: start;
+flex-direction: column;
+    
+}
+header {
+    background-image: url(/assets/bg-image.png);
+    background-repeat: no-repeat;
+    background-position: center, center;
+    height: 744px;
+    width: 1600px;
+    min-width: 1600px;
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+
+}
+.header-wrapper {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+}
+
+
+nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 501px;
+    margin-right: 450px;
+    margin-top: 0px;
+    /* border: 1px solid red; */
+}
+.item {
+   font-size: 14px;
+   font-weight: regular;
+   color: #fff;
+}
+nav .item a {
+    text-decoration: none;
+    color: #fff;
+}
+.about {
+    margin-right: 87px;
+    margin-top: 29px;
+}
+
+.syllabus {
+    margin-right: 100px;
+    margin-top: 30px;
+}
+
+.logo {
+    /* border: 1px solid red; */
+    width: 44px;
+    height: 44px;
+    margin-right: 102px;
+    background-image: url(/assets/logo.svg);
+    background-repeat: no-repeat;
+    background-position: center, center;
+    margin-top: 25px;
+}
+
+.projects {
+    margin-right: 84px;
+    margin-top: 28px;
+}
+
+.faq {
+    margin-top: 29px;
+}
+
+.h1 {
+    font-size: 64px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 162px;
+    margin-left: 435px;
+    letter-spacing: 5px;
+    word-spacing: -2px;
+}
+
+.paragraph {
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    width: 548px;
+    height: 50px;
+    line-height: 140%;
+    text-align: center;
+    margin-left: 525px;
+    margin-top: 24px;
+
+}
+
+.buttom {
+    margin-top: 27px;
+    margin-left: 707px;
+    text-align: center;
+    vertical-align: center;
+    line-height: 50px;
+
+    height: 46px;
+    width: 184px;
+    background-color: #00AFDB;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+}
+.icons {
+    width: 170px;
+    height: 20px;
+    margin-top: 183px;
+    margin-left: 715px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.email {
+    width: 20px;
+    height: 20px;
+    background-image: url(/assets/mail_fff.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.fb {
+    width: 20px;
+    height: 20px;
+    background-image: url(/assets/facebook_fff.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.insta {
+    width: 20px;
+    height: 20px;
+    background-image: url(/assets/insta_fff.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.youtube {
+    width: 20px;
+    height: 20px;
+    background-image: url(/assets/telegram_fff.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.second-zone {
+    height: 842px;
+    width: 1600px;
+    min-width: 1600px;
+    max-width: 1600px;
+    background-color: #fff;
+
+}
+.second-zone-wrapper {
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    
+}
+.second-zone-text {
+    width: 407px;
+    margin-top: 280px;
+    margin-left: 268px;
+    margin-right: 248px;
+}
+
+.second-zone-text h1 {
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 28px;
+}
+
+.second-zone-text p {
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    line-height: 143%;
+    margin-top: 21px;
+}
+
+.second-zone-text p span {
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0px;
+    line-height: 145%;
+}
+
+.second-zone-text .button {
+  width: 184px;
+  height: 46px;
+  background-color: #00AFDB;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  vertical-align: center;
+  line-height: 45px;
+  margin-top: 30px;
+}
+
+.second-zone-photo {
+    width: 407px;
+    height: 582px;
+    background-image: url(/assets/content-image-1.png);
+    margin-top: 120px;
+
+}
+
+.third-zone {
+    height: 504px;
+    width: 1600px;
+    min-width: 1600px;
+    max-width: 1600px;
+    background-color: #F5F6F7;
+
+}
+
+.forth-zone {
+    height: 842px;
+    width: 1600px;
+    min-width: 1600px;
+    max-width: 1600px;
+    background-color: #ffffff;
+
+}
