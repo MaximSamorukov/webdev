@@ -11,7 +11,7 @@ flex-direction: column;
     
 }
 header {
-    background-image: url(/assets/bg-image.png);
+    background-image: url(./assets/bg-image.png);
     background-repeat: no-repeat;
     background-position: center, center;
     height: 744px;
