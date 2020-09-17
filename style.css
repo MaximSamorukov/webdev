@@ -17,6 +17,8 @@ header {
     min-width: 1600px;
     max-width: 1600px;
     padding: 0;
+    margin-right: auto;
+    margin-left: auto;
 
 }
 .header-wrapper {
@@ -45,7 +47,7 @@ nav {
   
 }
 .about:hover, .syllabus:hover, .projects:hover, .faq:hover {
-    border-bottom: 1px solid #fff;
+    text-decoration: underline;
     font-weight: 500;
 }
 nav .item a {
@@ -60,7 +62,7 @@ nav .item a {
 }
 
 .syllabus {
-    margin-right: 100px;
+    margin-right: 102px;
     margin-top: 30px;
     
 }
@@ -68,7 +70,7 @@ nav .item a {
 .logo {
     width: 44px;
     height: 44px;
-    margin-right: 102px;
+    margin-right: 101px;
     margin-top: 25px;
 }
 
@@ -117,7 +119,7 @@ nav .item a {
 
 .buttom {
     margin-top: 29px;
-    margin-left: 707px;
+    margin-left: 708px;
     text-align: center;
     vertical-align: center;
     line-height: 48px;
@@ -185,6 +187,8 @@ nav .item a {
     min-width: 1600px;
     max-width: 1600px;
     background-color: #fff;
+    margin-right: auto;
+    margin-left: auto;
 
 }
 .second-zone-wrapper {
@@ -196,7 +200,7 @@ nav .item a {
 .second-zone-text {
     width: 407px;
     margin-top: 278px;
-    margin-left: 268px;
+    margin-left: 269px;
     margin-right: 248px;
 }
 
@@ -251,6 +255,8 @@ nav .item a {
     min-width: 1600px;
     max-width: 1600px;
     background-color: #F5F6F7;
+    margin-right: auto;
+    margin-left: auto;
 
 }
 .third-zone-wrapper {
@@ -306,7 +312,7 @@ nav .item a {
     height: 300px;
     width: 900px;
     margin-top: 75px;
-    margin-left: 139px;
+    margin-left: 140px;
 
 }
 .slider-index {
@@ -315,12 +321,25 @@ nav .item a {
     align-items: center;
     height: 30px;
 }
-.slider-index div:nth-child(2) {
+.slider-index div:nth-child(2) span {
     font-size: 18px;
     font-weight: 500;
     margin-left: 10px;
-    letter-spacing: 5px;
+    letter-spacing: -8px;
 }
+
+.slider-index div:nth-child(2) span:nth-child(1) {
+    letter-spacing: -8px;
+}
+
+.slider-index div:nth-child(2) span:nth-child(2) {
+    letter-spacing: -19px;
+}
+
+.slider-index div:nth-child(2) span:nth-child(3) {
+    letter-spacing: -0px;
+}
+
 .slider-index div:nth-child(1) {
     background-image: url(assets/Rectangle5.svg);
     background-repeat: no-repeat;
@@ -328,8 +347,6 @@ nav .item a {
     width: 12px;
     height: 12px;
     margin-left: 544px;
-
-
 }
 
 .slider-index div:nth-child(3) {
@@ -339,6 +356,10 @@ nav .item a {
     width: 12px;
     height: 12px;
     margin-left: 6px;
+}
+
+.slider-index div:nth-child(1):hover, .slider-index div:nth-child(3):hover {
+    cursor: pointer;
 }
 
 .slider-photos {
@@ -360,6 +381,8 @@ nav .item a {
     min-width: 1600px;
     max-width: 1600px;
     background-color: #ffffff;
+    margin-right: auto;
+    margin-left: auto;
 
 }
 
@@ -392,7 +415,7 @@ nav .item a {
     margin-top: 21px;
 }
 
-.forth-zone-text p span {
+.forth-zone-text p strong {
     font-size: 14px;
     font-weight: 500;
     letter-spacing: 0px;
@@ -418,7 +441,7 @@ nav .item a {
     height: 582px;
     background-image: url(assets/content-image-2.png);
     margin-top: 120px;
-    margin-left: 269px;
+    margin-left: 270px;
 
 }
 
@@ -430,6 +453,8 @@ nav .item a {
     background-image: url(assets/pexels-christina-morillo-1181675\ 1.png);
     background-repeat: no-repeat;
     background-position: center center;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .fifth-zone-h1 {
@@ -437,14 +462,14 @@ nav .item a {
     font-weight: 700;
     font-weight: bold;
     text-transform: uppercase;
-    margin-left: 610px;
+    margin-left: 611px;
     margin-top: 217px;
     color: #fff;
     letter-spacing: 1px;
 }
 
 .fifth-zone-email {
-    margin-left: 597px;
+    margin-left: 598px;
     margin-top: 31px;
     display: flex;
     justify-content: start;
@@ -480,6 +505,8 @@ nav .item a {
     min-width: 1600px;
     max-width: 1600px;
     background-color: #F5F6F7;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .sixth-zone-text {
@@ -577,6 +604,8 @@ nav .item a {
     min-width: 1600px;
     max-width: 1600px;
     background-color: #000;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .seventh-zone-items {
