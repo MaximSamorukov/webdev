@@ -57,7 +57,6 @@ nav .item a {
     margin-right: 86px;
     margin-top: 29px;
     border-bottom: 1px solid white;
-    
 }
 
 .syllabus {
@@ -102,9 +101,20 @@ nav .item a {
     letter-spacing:4px;
     word-spacing: 3px;
 }
-.h1 > h1 {
-    display: none;
+h1 {
+    /* display: none; */
 }
+
+.vhidden {
+    position: absolute;
+    display: block;
+    height: 1px;
+    width: 1px;
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
 .paragraph {
     font-size: 18px;
     font-weight: 400;
@@ -540,11 +550,11 @@ nav .item a {
 
 .sixth-zone-text > .button {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     margin-top: 29px;
     margin-right: auto;
     margin-left: auto;
-    width: 406px;
+    width: 405px;
 }
 
 .item-button {
@@ -599,6 +609,9 @@ nav .item a {
     background-color: #009CC2;
 }
 
+.play-market {
+    margin-left: 30px;
+}
 .seventh-zone {
     height: 184px;
     width: 1600px;
