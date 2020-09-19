@@ -508,6 +508,7 @@ nav .item a {
     background-image: url(assets/fa-check.svg);
     background-repeat: no-repeat;
     background-position: center center;
+    cursor: pointer;
 
     
 }
